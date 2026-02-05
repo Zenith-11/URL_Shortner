@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ep-fragrant-mouse-a1ztm21q.ap-southeast-1.aws.neon.tech:5432/neondb?sslmode=require
+    username: neondb_owner
+    password: npg_JSIXh58WAHzu
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+
+server:
+  port: 8080
